@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color:#082840;
+border: 3px solid #1f1f1f;
+
+}
+
+</string>
+  </property>
+  <widget class="QLabel" name="Kamera">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>331</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border: 3px solid #ffffff;
+border-radius:20px;
+background-color:#1f1f1f;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>561</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+background-color:#3c3c3e;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QComboBox" name="comboBox_Oznitelik">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>100</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+
+
+}
+QComboBox:hover{
+	border: 2px solid rgb(64, 71, 88);
+}
+QComboBox QAbstractItemView {
+	color: rgb(85, 170, 255);	
+	background-color: rgb(27, 29, 35);
+	padding: 10px;
+	selection-background-color: rgb(39, 44, 54);
+}</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>Test 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Test 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Test 3</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_Sinirlandirici">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>160</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+
+}
+QComboBox:hover{
+	border: 2px solid rgb(64, 71, 88);
+}
+QComboBox QAbstractItemView {
+	color: rgb(85, 170, 255);	
+	background-color: rgb(27, 29, 35);
+	padding: 10px;
+	selection-background-color: rgb(39, 44, 54);
+}</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>Test 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Test 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Test 3</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="TestYuzdesi">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+font-size:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>TestYuzdesi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Oznitelik">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+font-size:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Oznitelik</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Sinirlandirici">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+font-size:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sinirlandirici</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>39</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+font-size:15px;
+}</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Buton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>280</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Copperplate Gothic Bold</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background-color:#2AA9C7;
+border-radius:20px;
+border: 3px solid #ffffff;
+
+}
+QPushButton:hover{
+background-color:#b7db35;
+}
+
+
+QPushButton:pressed{
+background-color:rgb(170, 0, 0);
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Buton </string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label1">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>360</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+font-size:15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Label1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>420</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+background-color:#1f1f1f;
+border-radius:10px;
+border-radius:20px;
+border: 3px solid #ffffff;
+color:white;
+font-size:15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Label2</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
